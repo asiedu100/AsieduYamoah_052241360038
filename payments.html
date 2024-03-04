@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Payments</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Payments</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="faculty.html">Faculty</a></li>
+                <li><a href="departments.html">Departments</a></li>
+                <li><a href="timetables.html">Student Timetables</a></li>
+                <li><a href="payments.html">Payments</a></li>
+                <li><a href="registration.html">Registration</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <img src="payment.webp" alt="">
+        <section>
+            <h2>Make a Payment</h2>
+            <form>
+                <label for="studentNumber">Student Number:</label>
+                <input type="text" id="studentNumber" name="studentNumber" required><br><br>
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required><br><br>
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required><br><br>
+                <label for="programme">Programme:</label>
+                <input type="text" id="programme" name="programme" required><br><br>
+                <label for="paymentMethod">Payment Method:</label>
+                <select id="paymentMethod" name="paymentMethod" required>
+                    <option value="creditCard">Credit Card</option>
+                    <option value="debitCard">Debit Card</option>
+                    <option value="paypal">PayPal</option>
+                </select><br><br>
+                <label for="dueAmount">Due Amount:</label>
+                <input type="text" id="dueAmount" name="dueAmount" required><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Faculty Website. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
